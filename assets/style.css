@@ -112,4 +112,76 @@ header nav ul li a:hover {
     margin: 10px;
     padding: 10px;
     border:rgba(0,0 , 0, 0.5);
+    ;
+}
+#bio h2 {
+    color: var(--tertiary-color);
+}
+#bio img {
+    max-width: 35%;
+    max-height: 35%;
+    flex: 1;
+}
+/* work section */
+#work h2 {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    border-bottom: 5px solid var(--secondary-color);
+}
+/* contact info */
+#contact address {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    border: 5px;
+}
+#contact h2 {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    border-bottom: 5px solid var(--secondary-color);
+}
+#contact a {
+    color: var(--secondary-color);
+}
+#contact a:hover {
+    transition: color 1s;
+    color: var(--highlight-color);
+}
+/* media queries */
+@media screen and (max-width: 980px) {
+    header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+    }
+    header h1 {
+        font-size: 28px;
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav ul li a {
+        font-size: 20px;
+    }
+    .section-title {
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+}
+@media  screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 575px) {
+
 }
